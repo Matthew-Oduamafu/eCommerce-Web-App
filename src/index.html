@@ -4,7 +4,51 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Candy Shop</title>
+    <link rel="stylesheet" href="/src/style.css" />
+    <title>ProShop</title>
   </head>
+
+  <div class="container">
+    <form id="form" class="form">
+      <h2>Sign Up</h2>
+
+      <div class="form-control">
+        <label for="first-name">Firt Name</label>
+        <input type="text" id="first-name" placeholder="e.g John" />
+        <small>Error message</small>
+      </div>
+
+      <div class="form-control">
+        <label for="last-name">Last Name</label>
+        <input type="text" id="last-name" placeholder="e.g Smith" />
+        <small>Error message</small>
+      </div>
+
+      <div class="form-control">
+        <label for="email">Email</label>
+        <input type="text" id="email" placeholder="e.g someone@provider.com" />
+        <small>Error message</small>
+      </div>
+
+      <div class="form-control">
+        <label for="password">Password</label>
+        <input type="password" id="password" placeholder="" />
+        <small>Error message</small>
+      </div>
+
+      <div class="form-control">
+        <label for="confirm-password">Confirm Password</label>
+        <input type="password" id="confirm-password" placeholder="" />
+        <small>Error message</small>
+      </div>
+      <button type="button">Submit</button>
+    </form>
+  </div>
+
+  <div class="header">
+    <p class="already-have-account" ></p>Already have an Account? <a href="login.html">Login</a></p>
+  </div>
+
+  <script src="/src/script.js"></script>
   <body></body>
 </html>
